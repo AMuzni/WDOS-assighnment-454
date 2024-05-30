@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Page</title>
+    <link rel="stylesheet" href="stylesheets/style.css">
+</head>
+<body class="orderpg">
+    <header class="header">
+        <h1 id="name">WELCOME TO GREEN MART</h1>
+        <section class="navig">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about us.html">About Us</a></li>
+                <li><a href="diary products.html">Diary Products</a></li>
+                <li><a href="veg.html">Vegitables</a></li>
+                <li><a href="cosmetics.html">Cosmetics</a></li>
+                <li><a href="oreder.html">Order Page</a></li>
+                <li><a href="loyality.html">Loyality Page</a></li>
+              </ul>
+           </section>
+    </header>
+        <section class="orderpage">
+           <div class="ps">
+            <h2 class="customer">Customer Information</h2>
+            <form action="#">
+                <div class="orderinfo">
+                    <div class="ci">
+                        <label for="Full Name">Full Name:</label>
+                        <input type="text" class="Full Name" placeholder="Bob Marley" required>
+                    </div>
+                    <div class="ci">
+                        <label for="email address">E-mail Address:</label>
+                        <input type="email" class="email" placeholder="ABC@gmail.com" required>
+                    </div>
+                    <div class="ci">
+                        <label for="p.no">Phone number:</label> 
+                        <input type="number" class="num" placeholder="0XX-XXX-XXXX" required>
+                    </div>
+                    <div class="ci">
+                        <label for="Delivery address">Delivery Address:</label>
+                        <input type="text" class="dadd" placeholder="No. 388 Union Pl, Colombo 02" required>
+                    <h2 class="customer">Product Information</h2>
+                    <div class="ci">
+                        <label for="product cat">Product Catergory:</label>
+                        <input type="text" class="pc" placeholder="ex:Diary products" required>
+                    </div>
+                    <div class="ci">
+                        <label for="products name">Products Name:</label>
+                        <input type="text" class="pn" placeholder="ex:milk chocolate">
+                    </div>
+                    <div class="ci">
+                        <label for="Product quan">Quantity:</label>
+                        <input type="text" class="pq" placeholder="ex:500g or 2kg" required>
+                    </div>
+                    <div class="ci">
+                        <input type="radio" class="cart" name="add to cart" value="Add to cart">
+                        <label for="html">Add to Cart</label>
+                    </div>
+                    <div class="ci">
+                        <label for="loyality">Loyality type:</label>
+                        <input type="text" class="lt" placeholder="premium"><br>
+                        <a href="./loyality.html">Checkout Our Loyality Plans</a>
+                    </div>
+                    <h2 class="customer">Payment Information</h2>
+                    <div class="ci">
+                        <input type="checkbox" class="pay" name="payment" value="Payment Options">
+                        <label for="html">Cash On Delivery</label>
+                    </div>
+                    <div class="ci">
+                        <input type="checkbox" class="pay" name="payment" value="Payment Option">
+                        <label for="html">Online Payment</label>                
+                    </div>
+                    <div class="ci">
+                        <input type="checkbox" class="pay" name="payment" value="Payment Option">
+                        <label for="html">Buy now Pay later</label>                
+                    </div>
+                    </div>
+                    <div class="submit">
+                        <input type="reset"> 
+                        <input type="submit" value="Checkout">
+                    </div>
+                    </div>
+                </div>
+            </form>
+           </div>
+        </section>
+        <footer>
+            <section>
+                © 2024 Green Mart. All rights reserved. | <strong>Contact Us:</strong> 123 Grocery St, Cityville, ABC123 | Phone: 555-1234
+            </section>
+        </footer>
+</body>
+</html>
